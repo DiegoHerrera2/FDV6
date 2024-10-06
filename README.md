@@ -18,7 +18,8 @@ d. Modificar el script para que el objeto despegue del suelo y vuele como un avi
 ![E1-d](img/E1-d.gif)
 - Script: [Ejercicio1-d](scripts/Ejercicio1-d.cs)
 
-e. Duplicar los valores de X, Y, Z del Objetivo. ¿Es consistente el movimiento? - No es consistente el movimiento, ya que `goal` se interpreta como una dirección y su magnitud interviene en la velocidad del movimiento
+e. Duplicar los valores de X, Y, Z del Objetivo. ¿Es consistente el movimiento? 
+- No es consistente el movimiento, ya que `goal` se interpreta como una dirección y su magnitud interviene en la velocidad del movimiento
 ---
 2. El Objetivo no es un objetivo propiamente dicho, sino una dirección en la que queremos movernos. La información relevante de un vector es la dirección. Los vectores normalizados, conservan la misma dirección pero su escala no afecta al movimiento. Se debe conseguir un movimiento consistente de forma que la escala no afecte a la traslación. Del mismo modo, se debe conseguir que el recorrido realizado por el personaje entre un frame y otro no tenga aberraciones espacio-temporales. Para ello se debe considerar la relación entre la velocidad, el espacio y el tiempo. Por otra parte, el tiempo que transcurre entre un frame y otro se obtiene con: `Time.deltaTime`
 ![E2](img/E2.gif)
