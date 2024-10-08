@@ -48,7 +48,7 @@ e. Duplicar los valores de X, Y, Z del Objetivo. ¿Es consistente el movimiento?
 a. Realizar un script que gire al personaje hacia su objetivo para llegar hasta él desplazándose sobre su vector forward local.
 ![E6-a](img/E6-a.gif)
 
-- Script: [Ejercicio6-a](scripts/Ejercicio6-c.cs)
+- Script: [Ejercicio6-a](scripts/Ejercicio6-a.cs)
 
 b. Realizar un script que gire al personaje y lo desplace hacia su objetivo sobre la dirección que lo une con su objetivo. Normarlizar la dirección para evitar la influencia de la magnitud del vector
 ![E6-b](img/E6-b.gif)
@@ -77,11 +77,16 @@ Normarlizar la dirección para evitar la influencia de la magnitud del vector.
 
 --- 
 9. 
+
+Sistema de waypoints creado: [Ejercicio9](scripts/Ejercicio9.cs)
+
+![E9](img/E9.gif)
+
 10. 
 
 Utilizar el sistema de waypoints
 
-![E9-10](img/E10-11.gif)
+![E9-10](img/E10.gif)
 
 
 
